@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up!</title>
+    <!-- CSS file -->
+     <link rel="stylesheet" href="style.css">
+    <!-- JS file -->
+     <script src="script.js" defer></script>
+
+</head>
+<body>
+    <!-- start header/nav -->
+    <div class="header">
+        <nav class="navbar">
+            <div class="logo"><h1>Kretive</h1></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <!-- end header/nav -->
+     <div class="sign-up-form">
+
+        <form class="sign-up-wrapper" id="form">
+
+            
+            <div class="inputs">
+
+                <h1>let's get you started</h1>
+
+                
+               
+                <div class="input fullname" style="position: relative;">
+                    <label for="fullname">Full name</label>
+                    <input type="text" class="fullname" id="fullname" placeholder="Full name" autocomplete="off">
+                    <p id="fnError" style="position: absolute; top: 48px; left: 2px;"></p>
+
+                </div>
+                <div class="input email" style="position: relative;">
+                    <label for="email">Email</label >
+                    <input type="text" class="email" id="email" placeholder="Enter Your Email" autocomplete="off">
+                    <p id="emailError" style="position: absolute; top: 48px; left: 2px;" ></p>
+                </div>
+         
+                <div class="input phone" style="position: relative;">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" class= "phone" id= "phone" placeholder="Phone snumber" autocomplete="off">
+                    <p id="phoneError" style="position: absolute; top: 48px; left: 2px;"></p>
+                </div>
+                <div class="input password" style="position: relative;" >
+                    <label for="password">Password</label>
+                    <input type="password" class="password" id="password" placeholder="Enter your password" autocomplete="off">
+                    <p id="passError" style="position: absolute; top: 48px; left: 2px;"></p>
+                    <br>
+                    <p><small> Password must contain a minimum of 8 characters</small></p>
+                    <p><small> Password must contain at least one symbol e.g. @, !</small></p>
+                    <p id="passError"></p>
+                </div>
+                <div class="input location">
+                    <label for="location">Location <small>(Optional)</small></label>
+                    <input type="text" class= "phone" id="loc" placeholder="Location"  autocomplete="off">
+                </div>
+
+                <div class="submit-btn"><button type="submit">Sign up</button></div>
+
+                <p style="text-align: center;">Already a user <a href="#" style="color: blue; text-decoration: underline;">Login</a></p>
+            </div>
+
+            
+        </form>
+
+        
+        <div class="welcome-msg">
+            <h1>
+                “Creativity is intelligence having fun”
+            </h1>
+
+            <p><small>- Albert Einstein</small></p>
+        </div>
+       
+     </div>
+    
+</body>
+</html>
